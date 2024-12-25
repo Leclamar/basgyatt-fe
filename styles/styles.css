@@ -1,0 +1,236 @@
+html, body{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+#strip-oyen{
+    height: 12px;
+    width: 100vw;
+    background-color: #EE7738;
+}
+
+#abu-mini{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2C3D4F;
+    width: 100%;
+    min-height: 60px;
+    padding: 1.5vh 5vw;
+}
+
+header{
+    position: relative;
+    font-family: "Jacques Francois", serif;
+}
+
+.abu{
+    position: relative;
+    background-color: #2C3D4F;
+    height: 17vw;
+    width: 100%;
+    padding-top: 1.3rem;
+    text-align: center;
+}
+
+h1{
+    font-family: "Jacques Francois", serif;
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 0;
+    letter-spacing: 0.25em;
+}
+
+.putih{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFFFFF;
+    width: 70vw;
+    padding-top: 2rem;
+    height: 211px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.putih img{
+    width: 19%;
+    height: auto;
+}
+
+.login{
+    display: grid;
+    position: relative;
+    text-align: center;
+}
+
+form{
+    width: 50vw;
+    justify-self: center;
+    display: grid;
+}
+
+form label{
+    justify-self: start;
+}
+
+form a{
+    justify-self: self-end;
+    font-size: smaller;
+    margin: 1.5rem 0px 1rem;
+}
+
+form a:hover{
+    color: #EE7738;
+    cursor: pointer;
+}
+
+form input, select{
+    padding: 7px 1vw;
+}
+
+#submit{
+    padding: 1.1rem 0px;
+    font-weight: bold;
+    background-color: #F59D2A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#submit:hover{
+    background-color: #EE7738;
+    cursor: pointer;
+}
+
+#logo{
+    margin-right: 1rem;
+    background-color: #FFFFFF;
+    width: min-content;
+    border-radius: 100%;
+    padding: 12px;
+}
+
+#logo img{;
+    width: 30px;
+    height: auto;
+}
+
+.logos{
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+article{
+    padding: 1rem 5vw;
+}
+
+table{
+    margin-top: 3rem;
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+
+table, tr, td, th{
+    border: 1px solid rgb(152, 152, 152);
+}
+
+table td, table th{
+    padding: 13px 1rem;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content p{
+    font-family: "Jacques Francois", serif;
+    margin: 0.5rem;
+}
+
+.nav div{
+    margin-left: 5vw;
+}
+
+.nav a{
+    padding: 1rem 2rem;
+    font-family: "Poppins", serif;
+    margin-left: 0.5rem;
+    border-bottom: 1px solid transparent;
+    font-size: smaller;
+    color:rgb(255, 244, 228);
+}
+
+.nav a:hover{
+    color: #EE7738;
+    cursor: pointer;
+    border-bottom: 1px solid #EE7738;
+}
+
+#input-data input, #input-data select{
+    margin-bottom: 1rem;
+}
+
+#input-data #submit{
+    margin-top: 2rem;
+}
+
+#input-data{
+    font-family: "Poppins", serif;
+}
+
+section{
+    position: fixed;
+}
+
+.side-nav{
+    font-family: "Poppins", serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 22vw;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid rgba(58, 75, 107, 0.69);
+    height: 100vh;
+    background-color:rgb(255, 249, 239);
+}
+
+.side-nav a{
+    color:rgb(213, 102, 42);
+    padding: 0.5rem;
+}
+
+.side-nav div{
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.side-nav img{
+    width: 20px;
+    height: auto;
+}
+
+.side-nav div:hover{
+    cursor: pointer;
+    background-color: rgb(250, 236, 210);
+}
+
+.output{
+    margin-left: 25vw;
+}
+
+h2{
+    font-family: "Poppins", serif;
+    color: #34495D;
+}
