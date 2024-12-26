@@ -9,27 +9,31 @@
 <body>
     <header>
         <div id="strip-oyen"></div>
-        <div class="abu">
-            <h1>University Tralala</h1>
-        </div>
-        <div class="putih">
-            <img src="assets/logo.png">
-        </div>
     </header>
 
-    <section class="login">
-        <p style="color: rgba(44, 61, 79, 0.66)">Selamat datang di login page Universitas Tralala</p>
-        <form>
-            <label>Email / Username:</label>
-            <input type="text" name="username" placeholder="Username">
-
-            <label style="margin-top: 22px;">Password:</label>
-            <input type="password" name="password" placeholder="Password">
-
-            <a>Lupa password?</a>
-            <input type="submit" value="Login" id="submit">
+    <main class="flex">
+        <div class="fifty" id="abu">
+            <h1>Universitas Tralala</h1>
+            <div id="logo-large">
+                <img src="assets/logo.png">
             </div>
-        </form>
-    </section>
+        </div>
+
+        <div class="fifty" id="putih">
+            <h1>LOGIN</h1>
+            <p style="margin-bottom: 2rem; color: #34495dc8;">Hai, selamat datang di login page Universitas Tralala</p>
+            <form id="login">
+                <label>Username: </label>
+                <input type="text" name="username" placeholder="Username">
+
+                <label>Password: </label>
+                <input type="password" name="password" placeholder="Password">
+
+                <a>Forgot Password?</a>
+
+                <input type="submit" value="Login" id="submit">
+            </form>
+        </div>
+    </main>
 </body>
 </html>
